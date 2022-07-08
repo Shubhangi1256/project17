@@ -8,7 +8,7 @@ public class BankAccount
    Account b2=new Account();
    b2.setAccount(100,20000);
    b2.displayAccount();
-  
+ 
    Account b3=new Account();
    b3.setAccount(101,30000);
    b3.displayAccount();
@@ -18,6 +18,7 @@ class Account
 {
   private int acno;
   private double bal;
+  private string PAN;
 public Account()
 {
 acno=10;
